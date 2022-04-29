@@ -1,0 +1,765 @@
+/* reset css applied */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Comforter&family=M+PLUS+1:wght@100;200;300;400;500;600;700;800;900&family=Montagu+Slab:wght@500&family=Raleway:ital,wght@0,500;1,300;1,400;1,500&display=swap");
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+/* 16px */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS 1", sans-serif;
+}
+
+/* ========================================
+styling abf-wrapper
+======================================== */
+.abf-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649130352/earth-1272884_mpto6d.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.navbar {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+
+.logo {
+  width: 100px;
+  margin: 30px 0;
+}
+
+.menu-icon {
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  line-height: 80px;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #DCE1E9;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #00B4D8;
+}
+
+/* styling ghost button */
+a.ghost {
+  color: #DCE1E9;
+  border: 1px solid #00B4D8;
+  border-radius: 10px;
+  width: 150px;
+  padding: 7px 20px 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease-out, blackground-color 0.3s ease-out;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out;
+  order: 2;
+}
+
+a.ghost:hover, a.ghost:focus {
+  background-color: #00B4D8;
+  color: #FFFFFF;
+  -webkit-transition: color 0.3s ease-in, background-color 0.3s ease-in;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+button {
+  font-size: 1.333rem;
+  font-weight: 550;
+  width: 200px;
+  border: 0;
+  padding: 15px 20px;
+  outline: none;
+  color: #fff;
+  background: linear-gradient(to right, #00B4D8, #0036F5);
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 1rem 0 1rem;
+  letter-spacing: 0.05rem;
+}
+
+button a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+h1 {
+  font-size: 4.209rem;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 120px 0 30px 0;
+}
+
+.date, .location {
+  display: inline-block;
+  margin: 0 40px 0 0;
+  padding: 1px 0 1px 50px;
+}
+
+.date {
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649454563/noun-date-1828507_ya8f4p.svg");
+  background-repeat: no-repeat;
+}
+
+.location {
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649455298/noun-address_ztlp9z.svg");
+  background-repeat: no-repeat;
+}
+
+h2 {
+  font-size: 1.777rem;
+  color: #E6EDF3;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 30px 0 40px;
+}
+
+p {
+  font-size: 1.777rem;
+  color: #CED4DA;
+  font-weight: regular;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.actions {
+  color: #48CAE4;
+}
+
+/* ===========================================
+styling get-involved-wrapper 
+============================================*/
+.get-involved-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.card1-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card1 {
+  width: 300px;
+  height: 300px;
+  margin: 10px 10px;
+  border-radius: 8px;
+  border: 1px solid #00B4D8;
+}
+
+.card-image {
+  height: 130px;
+  margin: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.car1 {
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649523181/noun-bike-1742517_cnmo4c.svg");
+}
+
+.car2 {
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649523553/noun-recycle-576062_n1uy2e.svg");
+}
+
+.car3 {
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649523567/noun-water-2441620_lnouxv.svg");
+}
+
+.car4 {
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649523579/noun-vegan-3597786_avc4dv.svg");
+}
+
+.car5 {
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649523597/noun-no-plastic-bottles-3474327_wfshha.svg");
+}
+
+.car6 {
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649523621/noun-sun-1009724_cxqadv.svg");
+}
+
+.sub-title {
+  font-size: 1.333rem;
+  color: #CED4DA;
+  line-height: 1.2;
+  padding-top: 10px;
+}
+
+h3 {
+  font-size: 1.777rem;
+  color: #FFFFFF;
+  line-height: 1.2;
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.333rem;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.activity {
+  font-size: 1rem;
+  color: #DCE1E9;
+  margin: 15px;
+  line-height: 1.2;
+  display: block;
+  text-align: center;
+}
+
+.card1 a {
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.card1:hover {
+  transform: scale(1.03);
+}
+
+/* ===========================================
+styling support-wrapper
+============================================*/
+.support-wrapper {
+  background: linear-gradient(to bottom, #000000, #004782);
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.card2-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card2 {
+  width: 300px;
+  height: 500px;
+  margin: 10px 10px;
+  border-radius: 8px;
+  border: 1px solid #FAD2E1;
+}
+
+.card2-image {
+  height: 110px;
+  width: 110px;
+  margin: 15px 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.car7 {
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649537596/dmIsqSIZ_400x400_d4bkkc.png");
+}
+
+.car8 {
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649537607/Earth_Conservation_corps_o6hjst.gif");
+}
+
+.car9 {
+  background-image: url("https://res.cloudinary.com/dnui9enbr/image/upload/v1649542696/Rock_Creek_Conservancy_swdjxu.png");
+}
+
+.card2:hover {
+  transform: scale(1.03);
+}
+
+h5 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #EEF0F2;
+  margin: 15px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 0.9rem;
+  color: #DCE1E9;
+  margin: 20px;
+  line-height: 1.2;
+  display: block;
+  text-align: left;
+}
+
+.intro a {
+  font-size: 0.9rem;
+  color: #DCE1E9;
+}
+
+.intro a:hover {
+  font-style: italic;
+}
+
+.donate-btn a {
+  font-size: 1rem;
+  background-color: #00B4D8;
+  color: #FFFFFF;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 10px 80px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.number {
+  font-weight: bold;
+}
+
+/* p4 a {
+  color: pink;
+  border: none;
+} */
+/* a:link {
+  text-decoration: underline;
+  flex: none;
+} */
+/* =======================================
+styling video-wrapper
+========================================*/
+.video-wrapper {
+  background-color: #004782;
+  margin: 0 auto;
+  width: 100%;
+  height: 30%;
+  /*  box-sizing: border-box;
+   overflow: hidden;  */
+}
+
+.iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0px;
+  margin-top: 20px;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 80%;
+  width: 100%;
+}
+
+/* =======================================
+styling community-wrapper
+========================================*/
+.community-wrapper {
+  background-color: #004782;
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 5%;
+  padding-right: 10%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.card3 {
+  width: 320px;
+  height: 320px;
+  margin: 0 10px 10px 150px;
+}
+
+.card3 a {
+  font-size: 1.333rem;
+  background-color: #00B4D8;
+  color: #FFFFFF;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 30px 120px 0 0;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.card3 .sub-title p {
+  margin-top: 20px;
+  line-height: 1.2;
+  display: block;
+}
+
+.slider {
+  width: 800px;
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+}
+
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+.slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+/* =======================================
+styling footer-wrapper
+========================================*/
+.footer-wrapper {
+  background-color: #022642;
+  width: 100%;
+  min-height: 80vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.card4-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card4 {
+  width: 300px;
+  height: 300px;
+  margin-top: 80px;
+  margin-left: 0;
+  line-height: 1.4;
+}
+
+.logo-blu {
+  width: 150px;
+  margin-left: 0;
+}
+
+.contact {
+  text-align: left;
+}
+
+.reach {
+  color: #CED4DA;
+  font-size: 1rem;
+  margin: 15px;
+  line-height: 1.2;
+  display: block;
+  text-align: left;
+}
+
+.signup .reach {
+  text-align: right;
+}
+
+.org {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.org a {
+  color: #CED4DA;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.org a:hover {
+  transition: 0.3s ease-out;
+  text-decoration: underline;
+}
+
+.org-list {
+  padding-top: 20px;
+  line-height: 1.8;
+}
+
+.signup h5 {
+  text-align: right;
+  padding-top: 50px;
+}
+
+#footer-email {
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  margin-bottom: 30px;
+}
+
+#footer-email-btn {
+  width: 80px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #1E99B1;
+  outline: none;
+  border: none;
+  color: #FFF;
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+
+#footer-email-btn:hover {
+  cursor: pointer;
+}
+
+.social-links {
+  text-align: right;
+}
+
+.social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: #676B6F;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+header, section, footer {
+  min-width: 320px;
+  max-width: 1920px;
+  margin: 0 auto;
+  /* layout styels */
+  display: flex;
+  justify-content: space-between;
+  /* distribute available space between elements */
+  flex-wrap: wrap;
+  scroll-snap-align: center;
+}
+
+/* ==================================================
+START CUSTOM MEDIA QUERIES
+=====================================================*/
+@media only screen and (max-width: 400px) {
+  .logo {
+    width: 60px;
+  }
+
+  nav ul {
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    z-index: 2;
+  }
+
+  nav ul li {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 40px;
+  }
+
+  nav ul li a {
+    color: #DCE1E9;
+  }
+
+  a.ghost {
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  a.ghost:hover, a.ghost:focus {
+    color: #00B4D8;
+    background-color: none;
+    -webkit-transition-property: none;
+    background-color: transparent;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  #menuList {
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+  h1 {
+    font-size: 2.369rem;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    padding-top: 30px;
+  }
+
+  p {
+    font-size: 1.333rem;
+  }
+
+  .card1 {
+    height: 120px;
+    display: flex;
+    margin-left: 0;
+  }
+
+  .card-image {
+    height: 100px;
+    width: 150px;
+    margin: 15px;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .card1-text {
+    line-height: 0px;
+  }
+
+  h4 {
+    width: 150px;
+    font-size: 0.9rem;
+    margin-left: 10px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .activity {
+    font-size: 0.8rem;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+
+  .card1 a {
+    font-size: 0.8rem;
+    width: 70px;
+    margin-left: 8px;
+    padding-top: 0;
+  }
+
+  .card2-container {
+    margin: 8px 20px;
+  }
+
+  .card3 {
+    width: 320px;
+    margin: 8px 0;
+  }
+
+  .logo-blu {
+    margin-left: 70px;
+  }
+
+  .card4 {
+    margin-top: 0;
+  }
+
+  .contact .reach {
+    text-align: center;
+  }
+
+  .signup h5 {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .signup .reach {
+    text-align: center;
+  }
+
+  .slider {
+    width: 400px;
+    height: auto;
+  }
+
+  .social-links {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+/* end @media max-width 400px */
