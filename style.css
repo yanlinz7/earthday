@@ -35,7 +35,7 @@ styling abf-wrapper
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 0;
+  margin-top: 30px;
 }
 
 .logo {
@@ -417,7 +417,7 @@ styling community-wrapper
 .card3 {
   width: 320px;
   height: 320px;
-  margin: 0 10px 10px 150px;
+  margin: 0 10px 10px 50px;
 }
 
 .card3 a {
@@ -439,7 +439,7 @@ styling community-wrapper
 }
 
 .slider {
-  width: 800px;
+  width: 730px;
   height: auto;
   margin: 0;
   overflow: hidden;
@@ -633,36 +633,8 @@ LAYOUT UNITS FOR 12 COLUMN GRID
   flex-basis: calc((100% / 12) * 3 - 1%);
 }
 
-.four-unit {
-  flex-basis: calc((100% / 12) * 4 - 1%);
-}
-
-.five-unit {
-  flex-basis: calc((100% / 12) * 5 - 1%);
-}
-
-.six-unit {
-  flex-basis: calc((100% / 12) * 6 - 1%);
-}
-
-.seven-unit {
-  flex-basis: calc((100% / 12) * 7 - 1%);
-}
-
-.eight-unit {
-  flex-basis: calc((100% / 12) * 8 - 1%);
-}
-
 .nine-unit {
   flex-basis: calc((100% / 12) * 9 - 1%);
-}
-
-.ten-unit {
-  flex-basis: calc((100% / 12) * 10 - 1%);
-}
-
-.eleven-unit {
-  flex-basis: calc((100% / 12) * 11 - 1%);
 }
 
 .twelve-unit {
@@ -685,42 +657,6 @@ RIGHT GAP UNITS FOR 12 COLUMN GRID
   margin-right: calc((100% / 12) * 3);
 }
 
-.four-unit-gap-r {
-  margin-right: calc((100% / 12) * 4);
-}
-
-.five-unit-gap-r {
-  margin-right: calc((100% / 12) * 5);
-}
-
-.six-unit-gap-r {
-  margin-right: calc((100% / 12) * 6);
-}
-
-.seven-unit-gap-r {
-  margin-right: calc((100% / 12) * 7);
-}
-
-.eight-unit-gap-r {
-  margin-right: calc((100% / 12) * 8);
-}
-
-.nine-unit-gap-r {
-  margin-right: calc((100% / 12) * 9);
-}
-
-.ten-unit-gap-r {
-  margin-right: calc((100% / 12) * 10);
-}
-
-.eleven-unit-gap-r {
-  margin-right: calc((100% / 12) * 11);
-}
-
-.twelve-unit-gap-r {
-  margin-right: calc((100% / 12) * 12);
-}
-
 /*=====================================================
 LEFT GAP UNITS FOR 12 COLUMN GRID 
 =======================================================
@@ -731,46 +667,6 @@ LEFT GAP UNITS FOR 12 COLUMN GRID
 
 .two-unit-gap-l {
   margin-left: calc((100% / 12) * 2);
-}
-
-.three-unit-gap-l {
-  margin-left: calc((100% / 12) * 3);
-}
-
-.four-unit-gap-l {
-  margin-left: calc((100% / 12) * 4);
-}
-
-.five-unit-gap-l {
-  margin-left: calc((100% / 12) * 5);
-}
-
-.six-unit-gap-l {
-  margin-left: calc((100% / 12) * 6);
-}
-
-.seven-unit-gap-l {
-  margin-left: calc((100% / 12) * 7);
-}
-
-.eight-unit-gap-l {
-  margin-left: calc((100% / 12) * 8);
-}
-
-.nine-unit-gap-l {
-  margin-left: calc((100% / 12) * 9);
-}
-
-.ten-unit-gap-l {
-  margin-left: calc((100% / 12) * 10);
-}
-
-.eleven-unit-gap-l {
-  margin-left: calc((100% / 12) * 11);
-}
-
-.twelve-unit-gap-l {
-  margin-left: calc((100% / 12) * 12);
 }
 
 /* ==================================================
